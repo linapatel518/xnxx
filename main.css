@@ -1,0 +1,201 @@
+/** @format */
+
+body {
+  color: red;
+  width: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+.main {
+  width: 100%;
+}
+
+.rectangle1 {
+  color: #ffffff;
+  background-color: #060a0d;
+  display: flex;
+  padding: 15px;
+  padding-left: 60px;
+}
+.rectangle_left img {
+  background-color: #ffffff;
+  border-radius: 50%;
+  z-index: 10;
+}
+.rectangle_left {
+  display: flex;
+  flex: 0.5;
+  align-items: center;
+  justify-content: space-around;
+}
+.rectangle_left span {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.rectangle_right {
+  display: flex;
+  flex: 0.5;
+  align-items: center;
+  justify-content: space-around;
+}
+.rectangle_right li {
+  text-decoration: none;
+  list-style: none;
+  padding-left: 5px;
+}
+.rectangle_right a {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.rectangle_right a:hover {
+  color: green;
+}
+.rectangle2 {
+  height: 100vh;
+  background-image: url("images/pexels-josh-hild-4256852\ 1.svg");
+  padding-left: 100px;
+  padding-top: 50px;
+  color: #ffffff;
+}
+.rectangle2 h1 {
+  height: fit-content;
+  margin: 0;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 120px;
+  letter-spacing: 0.12em;
+}
+.rectangle2 h3 {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  letter-spacing: 0.065em;
+}
+.rectangle2 button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  color: #ffffff;
+  margin-top: 50px;
+  width: 314px;
+  height: 75px;
+  background-color: #591487;
+  padding: 10px 5px;
+  border: none;
+  cursor: pointer;
+}
+.rectangle2 button:hover {
+  background-color: green;
+}
+.rectangle3 {
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #050a0e;
+  color: #ffffff;
+}
+.rectangle3 h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 96px;
+  letter-spacing: 0.2em;
+  display: inline;
+  height: fit-content;
+  margin-bottom: 250px;
+}
+.rectangle3 h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  display: inline;
+  height: fit-content;
+  margin-top: 200px;
+}
+.rectangle3_icons {
+  width: 80%;
+  display: flex;
+}
+.rect3icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rect3icons h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.rect3icons p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+.rectangle4 {
+  height: 69.2vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("/images/INSTAFEED\ 1.svg");
+}
+.rectangle5 {
+  height: 130vh;
+  background-color: #050a0e;
+}
+.rectangle5 img {
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  width: 395.91px;
+  height: 395.91px;
+  left: 158.09px;
+  top: 320px;
+}
+.rectangle5_7 {
+  background-color: rgba(72, 72, 72, 0.67);
+  border: 2px solid gray;
+  z-index: 10;
+  width: 50%;
+  padding: 60px 30px 5px 30px;
+  height: fit-content;
+  position: relative;
+  top: -240px;
+  left: 440px;
+  color: #ffffff;
+}
+.rectangle5_7 p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+}
